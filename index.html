@@ -11,17 +11,29 @@
     <title>Template</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <style>
+      .shadow{
+        box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+      }
+      
+      .border{
+        border-radius: 15px;
+      }
+      
+      
+
+    </style>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
         <a class="navbar-brand" href="#">ComeWithMe</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ml-auto">
-            <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-link" href="#">Roadtrip</a>
-            <a class="nav-link" href="#">Gallery</a>
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Communication</a>
+            <a class="nav-link active mr-3" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link  mr-3 " href="#">Roadtrip</a>
+            <a class="nav-link  mr-3" href="#">Gallery</a>
+            <a class="nav-link disabled " href="#" tabindex="-1" aria-disabled="true">Communication</a>
           </div>
         </div>
       </nav>
@@ -48,47 +60,46 @@
       </div>
       <div class="container"> <!--container start-->
         <div class="row mt-5"> <!--row start-->
-
-             <div class="col-sm-4 mb-5">
-            <img src="images/coffee.jpg" class="w-100" alt="">
-             </div>
-            <div class="col-sm-8 mb-5">
-                <h2 class="text-center">Now's the perfect time.</h2>
-                <p class="text-center">Camping is a good option to stay away from the chaos of the city, workload and stress. We would like you to experience this beautiful environment with unique nature, a beautiful fire and few friends. We have some suggestions for you for a nice weekend getaway. Find the one that places you and get your bag ready now.</p>
+            
+            <div class="col-sm-12 mb-5 py-5" style="background-color:rgba(221, 219, 216, 0.3);" >
+                <h2 class="text-center mt-5">Now's the perfect time.</h2>
+                <p class="text-center mt-5" >Camping is a good option to stay away from the chaos of the city, workload and stress. We would like you to experience this beautiful environment with unique nature, a beautiful fire and few friends. We have some suggestions for you for a nice weekend getaway. Find the one that places you and get your bag ready now.</p>
                
             </div>
+          
+          
         
             
 
             <div class="card-deck">
-                <div class="card">
-                  <img src="images/borçka karagöl artvin.jpg" class="card-img-top" alt="..." >
+                <div class="card shadow">
+                  <img src="images/borçka karagöl artvin.jpg" class="card-img-top " alt="..." >
                   <div class="card-body">
                     <h5 class="card-title">Borçka Karagöl-ARTVİN</h5>
                     <p class="card-text">We all know the nature of Artvin already. If you want to have a nice experience next to the unique forests of the Black Sea, this is the place for you.</p>
                     <p class="card-text">
-                        <a href="#" class="btn btn-primary">Learn More</a> <br>
+                        <a href="#" class="btn btn-info border shadow">Learn More</a> <br>
                         <small class="text-muted">Last updated 3 mins ago</small></p>
                   </div>
                 </div>
-                <div class="card">
+                <div class="card shadow">
                   <img src="images/salda gölü burdur .jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Salda Gölü-BURDUR</h5>
                     <p class="card-text"> Salda Lake, located in the Yeşilova district of Burdur, is a natural wonder and heritage that the whole world talks about with admiration. but please let's try not to hurt while enjoying this beautiful place. It is our duty to protect such a perfect place.</p>
                     <p class="card-text">
-                        <a href="#" class="btn btn-primary">Learn More</a> <br>
+                        <a href="#" class="btn btn-info border shadow">Learn More</a> <br>
                         <small class="text-muted">Last updated 3 mins ago</small></p>
                   </div>
                 </div>
-                <div class="card">
+                <div class="card shadow">
                   <img src="images/yedigöller bolu.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Yedigöller-BOLU</h5>
                     <p class="card-text">The Black Sea region begins east of Istanbul in Bolu, whose centerpiece is Yedigoller (Yedigöller) or Seven Lakes National Park. With a climate that produces multi-colored forests of oak, alder, pine and hazelnut, the park entices visitors to travel through all four seasons of the year within the course of a short drive. The view is amazingly enchanting from Kapankaya peak in the Yedigoller National Park. While you do your camping daily picnics, trekking and photographing you could accommodate yourself in bungalows and guesthouses which are in the national park.
                     </p>
-                    <p class="card-text "> 
-                        <a href="#" class="btn btn-primary">Learn More</a> <br>
+                    <p class="card-text"> 
+                        <a href="#" class="btn btn-info shadow border">Learn More</a> <br>
                         <small class="text-muted">Last updated 3 mins ago</small></p>
                   </div>
                 </div>
